@@ -1,5 +1,8 @@
 body {
   background-color: lightblue;
+  font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
 }
 
 h1 {
@@ -22,19 +25,61 @@ h3 {
   text-align: center;
 }
 
-
 .grupito {
   color: orangered;
   text-align: center;
 }
 
 p {
+  color: darkred;
   font-family: verdana;
   font-size: 20px;
   text-align: center;
 }
 
 img {
- height: 20%;
- width: 20%;
+ height: 10%;
+ width: 10%;
 }
+
+header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+  
+nav {
+      background-color: #444;
+      overflow: hidden;
+    }
+
+nav a {
+            float: left;
+            display: block;
+            color: white;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+nav a:hover {
+            background-color: #575757;
+        }
+
+main {
+            padding: 20px;
+        }
+
+
+footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
